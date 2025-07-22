@@ -30,11 +30,11 @@ export default function RootLayout({
 
         <Header />
 
-        <div className="main">
+        {/* <div className="main"> */}
 
           {children}
 
-        </div>
+        {/* </div> */}
 
       <Footer />
       
