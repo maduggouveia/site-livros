@@ -1,18 +1,7 @@
-import { About } from "./components/About/About";
-import { Newsletter } from "./components/Newsletter/Newsletter";
+import Home from "./Home/page";
 
-export default function Home() {
-  return (
+export default function Index() {
 
-    <>
-    
-    <About />
+    return <Home />;
 
-    <Newsletter />
-    
-    </>
-
-
-
-  );
 }

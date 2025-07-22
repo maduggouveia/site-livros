@@ -42,3 +42,7 @@ ul.redes-sociais {
   opacity: 0.5;
   transition: 0.3s ease-in;
 }
+
+p.texto-corrido {
+  text-align: justify;
+}

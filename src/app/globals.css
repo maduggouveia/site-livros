@@ -66,3 +66,7 @@ ul {
     list-style: none;
     display: flex;
 }
+
+p {
+  text-align: left;
+}
