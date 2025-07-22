@@ -1,0 +1,40 @@
+.footer {
+    padding: 5px;
+    background-color: #5C00B8;
+
+}
+
+.box-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4.copyright {
+    color: #F0EFF4;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+ul.redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 25px 0px;
+  gap: 25px;
+  padding-inline-start: 0px;
+}
+
+.redes-sociais img {
+  width: 30px;
+  height: 30px;
+}
+
+.redes-sociais img:hover {
+  opacity: 0.5;
+  transition: 0.3s ease-in;
+}
