@@ -35,23 +35,46 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #F0EFF4;
+  color: #6600CC;
+  background-color: #F0EFF4;
+  transition: 0.3s ease-in;
+  padding: 0px 3px;
+}
+
+a.link-redes {
+  padding: 0px;
+  background-color: transparent;
+}
+
+a.link-redes:hover {
+    padding: 0px;
+    background-color: transparent;
 }
 
 html,
 body {
   max-width: 100vw;
-  /* overflow-x: hidden; */
+  height: 100vh;
 
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 
+main {
+  margin: 25px auto;
+  text-align: center;
+
+  padding: 10px;
+
+  max-width: 1200px;
+}
+
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 3em;
-  line-height: 1.1;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
 }
 
 h2, h3, h4 {
@@ -69,4 +92,5 @@ ul {
 
 p {
   text-align: left;
+  line-height: 1.5;
 }

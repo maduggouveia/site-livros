@@ -1,0 +1,107 @@
+
+div.servicos-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+div.imgcard-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px auto;
+}
+
+div.cards-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 15px;
+    width: 100%;
+}
+
+div.card-servico {
+    margin: 10px auto;
+    padding: 25px;
+
+    width: 500px;
+    height: auto;
+    min-height: 150px;
+
+    background-color: #f5f5f5;
+    border-radius: 25px;
+}
+
+div.externo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 700px;
+    height: auto;
+
+    margin: 25px;
+
+}
+
+div.card-pv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 25px;
+
+    width: 700px;
+    height: auto;
+    min-height: 150px;
+
+    background-color: #f5f5f5;
+    border-radius: 25px;
+}
+
+p.descricao-servico {
+    color: #474F5C;
+    text-align: justify;
+}
+
+img.img-servicos {
+    width: 45%;
+    height: auto;
+
+    margin: 25px;
+
+    border-radius: 25px;
+}
+
+a.saiba-mais {
+    padding: 15px 50px;
+    border-radius: 30px;
+
+    margin: 25px;
+    width: 200px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    color: #F0EFF4;
+    background-color: #6600CC;
+}
+
+a.saiba-mais:hover {
+    color: #6600CC;
+    background-color: #F0EFF4;
+    transition: 0.3s ease-in;
+}
