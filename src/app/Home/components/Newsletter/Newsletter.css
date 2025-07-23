@@ -29,3 +29,12 @@ div.newsletter-box {
 
     margin: 25px auto;
 }
+
+img.img-servicos {
+    width: 45%;
+    height: auto;
+
+    margin: 25px;
+
+    border-radius: 25px;
+}

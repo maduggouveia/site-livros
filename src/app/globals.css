@@ -34,6 +34,7 @@ a {
   color: #18A999;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #6600CC;
   background-color: #F0EFF4;
@@ -93,4 +94,9 @@ ul {
 p {
   text-align: left;
   line-height: 1.5;
+}
+
+p.descricao {
+    color: #474F5C;
+    text-align: justify;
 }

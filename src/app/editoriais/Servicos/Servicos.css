@@ -70,11 +70,6 @@ div.card-pv {
     border-radius: 25px;
 }
 
-p.descricao-servico {
-    color: #474F5C;
-    text-align: justify;
-}
-
 img.img-servicos {
     width: 45%;
     height: auto;
@@ -101,7 +96,7 @@ a.saiba-mais {
 }
 
 a.saiba-mais:hover {
-    color: #6600CC;
+    color: #18A999;
     background-color: #F0EFF4;
     transition: 0.3s ease-in;
 }
