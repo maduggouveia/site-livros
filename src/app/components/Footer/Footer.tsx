@@ -20,8 +20,7 @@ export function Footer() {
 
           </ul>
 
-
-        <h4 className="copyright">&copy; Todos os direitos reservados</h4>
+        <h4 className="copyright">Madu Gonçalves &copy; 2025</h4>
 
       </div>
 
