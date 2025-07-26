@@ -96,7 +96,7 @@ export function Destaques() {
                                 <h2>Trilogia dos Amores</h2>
                                 <p className='descricao'>“Meu Amor Viajante” é uma noveleta sobre as memórias que fazemos com aqueles que amamos, a efemeridade das nossas relações e as histórias que queremos contar, mas que nem sempre saem como esperávamos.</p>
 
-                                <p className="descricao">Conheça também o desfecho da Trilogia dos Amores em Meu Amor Sempre!</p>
+                            <p className="descricao">Conheça também o desfecho da Trilogia dos Amores em <a href="https://www.amazon.com.br/dp/B0BPR3NJWJ" target="_blank">Meu Amor Sempre</a>!</p>
 
                                 <div className="botoes-box">
                                     <a className='link-compra' href="https://www.amazon.com.br/dp/B0B66Y2XN1" target="_blank">leia aqui</a>

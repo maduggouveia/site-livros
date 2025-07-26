@@ -1,0 +1,92 @@
+div.booklist-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.tabs-root {
+    width: 1200px;
+
+    background-color: #B8F5EE;
+
+    padding: 15px;
+    margin: 0px auto 50px auto;
+
+}
+
+.tabs-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 20px;
+    padding: 15px;
+
+    background-color: #F0EFF4;
+    border-radius: 10px
+
+}
+
+.tabs-trigger {
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: none;
+
+    cursor: pointer;
+
+    width: 250px;
+    margin: 25px;
+
+    font-family: "DM Serif Display", sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    
+    color: #F0EFF4;
+    background-color: #6600CC;
+}
+
+.tabs-trigger:hover {
+    color: #18A999;
+    background-color: #F0EFF4;
+    transition: 0.3s ease-in;
+}
+
+.tabs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+}
+
+
+div.card-tablivro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 1100px;
+    padding: 25px;
+    gap: 45px;
+
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+div.tablivro-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+
+    max-width: 700px;
+}

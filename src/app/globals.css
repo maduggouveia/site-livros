@@ -52,6 +52,27 @@ a.link-redes:hover {
     background-color: transparent;
 }
 
+a.link-compra {
+    padding: 15px 50px;
+    border-radius: 30px;
+
+    margin: 25px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    color: #F0EFF4;
+    background-color: #6600CC;
+}
+
+a.link-compra:hover {
+    color: #18A999;
+    background-color: #F0EFF4;
+    transition: 0.3s ease-in;
+}
+
 html,
 body {
   margin: 0;

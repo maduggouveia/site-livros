@@ -1,15 +1,16 @@
+import { Bookslist } from "./components/Bookslist/Bookslist";
 
 
-export default function BooksPage() {
+export default function Bookspage() {
   return (
 
-    <>
+    <div className="booklist-box">
 
-    <h1>Meus livros</h1>
+      <h1>Meus livros</h1>
 
-    <p>testando para ver se aparece</p>
+        <Bookslist />
 
-    </>
+    </div>
 
   );
 }
