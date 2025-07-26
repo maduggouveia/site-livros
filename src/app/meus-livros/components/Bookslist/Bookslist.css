@@ -8,9 +8,7 @@ div.booklist-box {
 }
 
 .tabs-root {
-    width: 1200px;
-
-    padding: 15px;
+    width: 100%;
     margin: 0px auto 50px auto;
 }
 
@@ -48,10 +46,15 @@ div.booklist-box {
     background-color: #6600CC;
 }
 
-.tabs-trigger:hover {
+/* .tabs-trigger:hover {
     color: #18A999;
     background-color: #F0EFF4;
     transition: 0.3s ease-in;
+} */
+
+.tabs-trigger[data-state="inactive"] {
+    color: #6600CC;
+    background-color: #fff;
 }
 
 .tabs-content {
@@ -59,6 +62,7 @@ div.booklist-box {
     flex-direction: column;
     align-items: center;
 
+    width: 100%;
     gap: 50px;
 }
 
@@ -69,9 +73,10 @@ div.card-tablivro {
     justify-content: space-evenly;
     align-items: center;
 
-    width: 1100px;
-    padding: 25px;
-    gap: 45px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+    gap: 25px;
 
     background-color: #fff;
     border-radius: 25px;
@@ -83,9 +88,11 @@ div.tablivro-info {
     justify-content: center;
     align-items: center;
 
+    width: 100%;
     max-width: 700px;
 }
 
 div.tabbotoes-box {
+    padding: 10px;
     margin: 25px;
 }

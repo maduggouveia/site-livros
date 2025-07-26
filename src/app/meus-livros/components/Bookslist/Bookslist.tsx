@@ -14,6 +14,9 @@ const BookTabs = () => (
                 <Tabs.Trigger className="tabs-trigger" value="tab2">
                     Poesia
                 </Tabs.Trigger>
+                <Tabs.Trigger className="tabs-trigger" value="tab3">
+                    Outros
+                </Tabs.Trigger>
             </Tabs.List>
 
             <Tabs.Content className="tabs-content" value="tab1">
@@ -75,7 +78,7 @@ const BookTabs = () => (
 
                 <div className="card-tablivro">
                         
-                    <Image src="/imgs/placeholder.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/ensaios-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                     
                     <div className="tablivro-info">
                         <h2>Ensaios Sobre a Intimidade</h2>
@@ -95,7 +98,7 @@ const BookTabs = () => (
 
                 <div className="card-tablivro">
                         
-                    <Image src="/imgs/placeholder.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/achados-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                     
                     <div className="tablivro-info">
                         <h2>Achados & Perdidos</h2>
@@ -103,6 +106,25 @@ const BookTabs = () => (
                         
                         <div className="tabbotoes-box">
                             <a className='link-compra' href="https://www.amazon.com.br/dp/B0CT94W7K8" target="_blank">e-book</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </Tabs.Content>
+
+            <Tabs.Content className="tabs-content" value="tab3">
+
+                <div className="card-tablivro">
+                        
+                    <Image src="/imgs/habito-livro.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    
+                    <div className="tablivro-info">
+                        <h2>(Re)criando o Hábito de Leitura</h2>
+                        <p className='descricao'>Se você ama ler, ou gostaria de fazer isto mais no seu cotidiano, saiba que existem passos que você pode seguir para, não só facilitar o seu processo de leitura, como também entendê-lo melhor. (Re)criando o Hábito de Leitura é um projeto com 13 dicas para ajudar tanto leitores novatos quanto os mais experientes que estão enfrentando uma ressaca literária que parece infinita. Com estas dicas, é possível retomar a sua jornada no mundo da literatura sem medo.</p>
+                        
+                        <div className="tabbotoes-box">
+                            <a className='link-compra' href="https://www.amazon.com.br/dp/B08P7MSBR8" target="_blank">e-book</a>
                         </div>
                         
                     </div>
