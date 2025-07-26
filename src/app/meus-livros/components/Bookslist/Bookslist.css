@@ -10,11 +10,8 @@ div.booklist-box {
 .tabs-root {
     width: 1200px;
 
-    background-color: #B8F5EE;
-
     padding: 15px;
     margin: 0px auto 50px auto;
-
 }
 
 .tabs-list {
@@ -86,7 +83,9 @@ div.tablivro-info {
     justify-content: center;
     align-items: center;
 
-    gap: 25px;
-
     max-width: 700px;
+}
+
+div.tabbotoes-box {
+    margin: 25px;
 }
