@@ -1,38 +1,40 @@
-import Image from "next/image"
+'use client'
+import * as React from "react";
 
-const photos = [
-    {
-        id: 1,
-        src: '/imgs/placeholder.png',
-        alt: 'Placeholder Image 1'
-    },
-    {
-        id: 2,
-        src: '/imgs/placeholder.png',
-        alt: 'Placeholder Image 2'
-    },
-    {
-        id: 3,
-        src: '/imgs/placeholder.png',
-        alt: 'Placeholder Image 3'
-    }
-]
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
-const Gallery = photos.map((photo => (
-    <Image key={photo.id} src={photo.src} alt={photo.alt} width={200} height={200} />
-)))
+import { RowsPhotoAlbum } from "react-photo-album";
+import "react-photo-album/rows.css";
 
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+
+import { artes } from "./galeria";
 
 export function TesteGaleria() {
+  const [index, setIndex] = React.useState(-1);
 
-    // console.log(Gallery)
+  return (
+    <>
 
-    return (
+      <RowsPhotoAlbum
+        photos={artes}
+        targetRowHeight={150}
+        spacing={50}
+        onClick={({ index: current }) => setIndex(current)}
 
-        <div className="gallery">
-            {Gallery}
-        </div>
+      />
 
-    )
+      <Lightbox
+        index={index}
+        slides={artes}
+        open={index >= 0}
+        close={() => setIndex(-1)}
 
+        plugins={[Thumbnails, Zoom]}
+      />
+    </>
+  );
 }
