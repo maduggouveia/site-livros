@@ -1,4 +1,5 @@
-import { Bookslist } from "./components/Bookslist/Bookslist";
+// import { Bookslist } from "./components/Bookslist/Bookslist";
+import { TesteGaleria } from "./components/Gallery/Gallery";
 
 
 export default function Bookspage() {
@@ -8,7 +9,9 @@ export default function Bookspage() {
 
       <h1>Meus livros</h1>
 
-        <Bookslist />
+        {/* <Bookslist /> */}
+
+        <TesteGaleria />
 
     </div>
 

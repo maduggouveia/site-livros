@@ -46,12 +46,6 @@ div.booklist-box {
     background-color: #6600CC;
 }
 
-/* .tabs-trigger:hover {
-    color: #18A999;
-    background-color: #F0EFF4;
-    transition: 0.3s ease-in;
-} */
-
 .tabs-trigger[data-state="inactive"] {
     color: #6600CC;
     background-color: #fff;
