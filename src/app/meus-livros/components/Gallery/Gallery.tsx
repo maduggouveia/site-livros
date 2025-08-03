@@ -4,14 +4,15 @@ import * as React from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import { RowsPhotoAlbum } from "react-photo-album";
+import { RowsPhotoAlbum, MasonryPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
 
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-import { artes } from "./galeria";
+import { artesRainha } from "./galeria";
+import './Gallery.css'
 
 export function TesteGaleria() {
   const [index, setIndex] = React.useState(-1);
@@ -20,21 +21,25 @@ export function TesteGaleria() {
     <>
 
       <RowsPhotoAlbum
-        photos={artes}
-        targetRowHeight={150}
-        spacing={50}
+        photos={artesRainha}
         onClick={({ index: current }) => setIndex(current)}
-
       />
+
+      {/* <MasonryPhotoAlbum
+        photos={artesRainha}
+        
+      /> */}
 
       <Lightbox
         index={index}
-        slides={artes}
+        slides={artesRainha}
         open={index >= 0}
         close={() => setIndex(-1)}
 
         plugins={[Thumbnails, Zoom]}
       />
+
     </>
   );
 }
+

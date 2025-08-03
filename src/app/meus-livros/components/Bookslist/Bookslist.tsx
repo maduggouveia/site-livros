@@ -3,6 +3,8 @@ import { Tabs } from "radix-ui";
 import Image from "next/image";
 import './Bookslist.css'
 
+import { TesteGaleria } from "../Gallery/Gallery";
+
 const BookTabs = () => (
 
         <Tabs.Root className="tabs-root" defaultValue="tab1">
@@ -36,6 +38,8 @@ const BookTabs = () => (
                 
                     </div>
                 </div>
+
+                <TesteGaleria />
 
                 <div className="card-tablivro">
 

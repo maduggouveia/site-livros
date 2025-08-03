@@ -1,4 +1,4 @@
-export const artes = [
+export const artesRainha = [
     {
         id: 1,
         src: '/artes/brigando-amanda.png',
@@ -34,5 +34,32 @@ export const artes = [
         width: 768,
         height: 960
     },
-
+    {
+        id: 6,
+        src: '/artes/thaliraes-beatrice.png',
+        alt: 'Busto de Beatrice, ela tem uma expressão séria e trança no volumoso cabelo',
+        width: 768,
+        height: 960
+    },
+    {
+        id: 7,
+        src: '/artes/thaliraes-hector.png',
+        alt: 'Busto de Hector, ele está com um meio sorriso e a coroa de adagas na cabeça',
+        width: 768,
+        height: 960
+    },
+    {
+        id: 8,
+        src: '/artes/thaliraes-morgan.png',
+        alt: 'Busto de Morgan, ele tem um rosto sério, com a cicatriz no canto da boca a puxando para baixo',
+        width: 768,
+        height: 960
+    },
+    {
+        id: 9,
+        src: '/artes/thaliraes-thea.png',
+        alt: 'Busto de Thea, com cabelo preso em um coque e um sorriso de lado',
+        width: 768,
+        height: 960
+    }
 ]

@@ -1,19 +1,42 @@
-div.gallery {
+/* div.gallery {
     display: flex;
     flex-wrap: wrap;
 
     justify-content: center;
     align-items: center;
-    gap: 25px;
 
-    max-width: 1000px;
+    width: 1000px;
+} */
+
+div.react-photo-album, div.react-photo-album--rows {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px auto 25px auto;
+
+    width: 1200px;
 }
 
-img.preview {
-    width: 50px;
-    height: 50px;
+div.react-photo-album--track {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    gap: 20px;
+}
+
+button.react-photo-album--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.react-photo-album--image {
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 25px;  
+    border-radius: 25px;
 }
-
-
