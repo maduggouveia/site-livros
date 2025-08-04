@@ -24,7 +24,6 @@ div.react-photo-album--track {
     display: flex;
     flex-wrap: wrap;
 
-
     gap: 20px;
 }
 
@@ -39,4 +38,22 @@ img.react-photo-album--image {
     height: 150px;
     object-fit: cover;
     border-radius: 25px;
+}
+
+/* .yarl__container, .yarl__thumbnails_container {
+    background-color: #000000de;
+} */
+
+.yarl__slide_description {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.yarl__slide_captions_container, .yarl__slide_description_container {
+
+    background-color: #000;
+    width: 100%;
+
 }

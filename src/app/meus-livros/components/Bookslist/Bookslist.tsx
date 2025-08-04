@@ -3,7 +3,7 @@ import { Tabs } from "radix-ui";
 import Image from "next/image";
 import './Bookslist.css'
 
-import { TesteGaleria } from "../Gallery/Gallery";
+import { ImgsMAV, ImgsNDI, ImgsRainha } from "../Gallery/Gallery";
 
 const BookTabs = () => (
 
@@ -39,7 +39,7 @@ const BookTabs = () => (
                     </div>
                 </div>
 
-                <TesteGaleria />
+                <ImgsRainha />
 
                 <div className="card-tablivro">
 
@@ -56,6 +56,8 @@ const BookTabs = () => (
 
                     </div>
                 </div>
+
+                <ImgsNDI />
 
                 <div className="card-tablivro">
                         
@@ -76,6 +78,8 @@ const BookTabs = () => (
                         
                     </div>
                 </div>
+
+                <ImgsMAV />
 
             </Tabs.Content>
             <Tabs.Content className="tabs-content" value="tab2">

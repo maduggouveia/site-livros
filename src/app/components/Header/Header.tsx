@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import './Header.css'
 
+import Image from 'next/image'
+
 export function Header() {
 
   return (
@@ -9,7 +11,9 @@ export function Header() {
 
       <div className="header-box">
 
-                <h1 className='header-title'>Madu e Os Livros</h1>
+                <Image src="/imgs/testebranco.png" alt="Madu e Os Livros" height={85} width={200} />
+
+                {/* <h1 className='header-title'>Madu e Os Livros</h1> */}
         <nav>
             <div className='lista-nav'>
                 <Link className='botao-nav' href="/">Home</Link>
