@@ -1,31 +1,17 @@
-/* div.gallery {
-    display: flex;
-    flex-wrap: wrap;
-
-    justify-content: center;
-    align-items: center;
-
-    width: 1000px;
-} */
-
 div.react-photo-album, div.react-photo-album--rows {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 
     justify-content: center;
     align-items: center;
 
-    margin: 10px auto 25px auto;
+    margin: 25px;
 
-    width: 1200px;
+    width: 100%;
 }
 
-div.react-photo-album--track {
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 20px;
-}
+/* ARRUMAR IMGS NA PÁGINA, OS QUADRADOS ESTÃO COM TAMANHOS DIFERENTES */
 
 button.react-photo-album--button {
     display: flex;
@@ -39,10 +25,6 @@ img.react-photo-album--image {
     object-fit: cover;
     border-radius: 25px;
 }
-
-/* .yarl__container, .yarl__thumbnails_container {
-    background-color: #000000de;
-} */
 
 .yarl__slide_description {
     font-family: "Noto Sans", sans-serif;

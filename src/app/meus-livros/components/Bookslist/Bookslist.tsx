@@ -17,7 +17,7 @@ const BookTabs = () => (
                     Poesia
                 </Tabs.Trigger>
                 <Tabs.Trigger className="tabs-trigger" value="tab3">
-                    Outros
+                    Galeria
                 </Tabs.Trigger>
             </Tabs.List>
 
@@ -39,7 +39,6 @@ const BookTabs = () => (
                     </div>
                 </div>
 
-                <ImgsRainha />
 
                 <div className="card-tablivro">
 
@@ -56,8 +55,6 @@ const BookTabs = () => (
 
                     </div>
                 </div>
-
-                <ImgsNDI />
 
                 <div className="card-tablivro">
                         
@@ -78,8 +75,6 @@ const BookTabs = () => (
                         
                     </div>
                 </div>
-
-                <ImgsMAV />
 
             </Tabs.Content>
             <Tabs.Content className="tabs-content" value="tab2">
@@ -123,19 +118,28 @@ const BookTabs = () => (
 
             <Tabs.Content className="tabs-content" value="tab3">
 
-                <div className="card-tablivro">
-                        
-                    <Image src="/imgs/habito-livro.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                <div className="card-tabgaleria">
+
+                    <h2>A Rainha de Dois Reinos</h2>
                     
-                    <div className="tablivro-info">
-                        <h2>(Re)criando o Hábito de Leitura</h2>
-                        <p className='descricao'>Se você ama ler, ou gostaria de fazer isto mais no seu cotidiano, saiba que existem passos que você pode seguir para, não só facilitar o seu processo de leitura, como também entendê-lo melhor. (Re)criando o Hábito de Leitura é um projeto com 13 dicas para ajudar tanto leitores novatos quanto os mais experientes que estão enfrentando uma ressaca literária que parece infinita. Com estas dicas, é possível retomar a sua jornada no mundo da literatura sem medo.</p>
-                        
-                        <div className="tabbotoes-box">
-                            <a className='link-compra' href="https://www.amazon.com.br/dp/B08P7MSBR8" target="_blank">e-book</a>
-                        </div>
-                        
-                    </div>
+                    <ImgsRainha />
+                    
+                </div>
+
+                <div className="card-tabgaleria">
+
+                    <h2>Noites de Insônia</h2>
+                    
+                    <ImgsNDI />
+                    
+                </div>
+
+                <div className="card-tabgaleria">
+
+                    <h2>Meu Amor Viajante</h2>
+                    
+                    <ImgsMAV />
+                    
                 </div>
 
             </Tabs.Content>

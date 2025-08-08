@@ -30,12 +30,6 @@ export function ImgsRainha() {
         onClick={({ index: current }) => setIndex(current)}
       />
 
-      {/* <MasonryPhotoAlbum
-        photos={artesRainha}
-        columns={4}
-        
-      /> */}
-
       <Lightbox
         index={index}
         slides={artesRainha}

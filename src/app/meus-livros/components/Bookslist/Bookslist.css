@@ -76,6 +76,21 @@ div.card-tablivro {
     border-radius: 25px;
 }
 
+div.card-tabgaleria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 100%; */
+    width: 1000px;
+    padding: 50px;
+    gap: 25px;
+
+    background-color: #fff;
+    border-radius: 25px;
+}
+
 div.tablivro-info {
     display: flex;
     flex-direction: column;
