@@ -51,3 +51,81 @@ a.botao-nav:hover {
     background-color: #6600CC;
     transition: 0.3s ease-in;
 }
+
+@media (max-width: 480px) {
+
+    .header {
+    position: static;
+
+    padding: 5px;
+
+    background-color: #5C00B8;
+}
+
+    .header-box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+    div.lista-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px;
+    gap: 15px;
+    }
+
+    a.botao-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .header {
+    position: static;
+
+    padding: 5px;
+
+    background-color: #5C00B8;
+}
+
+    .header-box {
+        max-width: 90%;
+    }
+
+    div.lista-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+        margin: 10px;
+        gap: 15px;
+    }
+
+    a.botao-nav {
+        width: 95%;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    .header-box {
+
+        width: 90%;
+    
+}
+
+}

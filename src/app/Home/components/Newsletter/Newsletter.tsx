@@ -14,7 +14,7 @@ export function Newsletter() {
 
             </div>
         
-        <Image src="/imgs/newsletterfoto.jpg" alt="fotografia de uma máquina de escrever, cercada de envelopes selados com lacres de cera" height={500} width={500} className='img-servicos'/>
+        <Image src="/imgs/newsletterfoto.jpg" alt="fotografia de uma máquina de escrever, cercada de envelopes selados com lacres de cera" height={500} width={500} className='img-news'/>
 
         </div>
 

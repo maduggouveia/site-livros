@@ -38,3 +38,27 @@ ul.redes-sociais {
   opacity: 0.5;
   transition: 0.3s ease-in;
 }
+
+@media (max-width: 480px) { 
+    .box-footer {
+      display: flex;
+      flex-direction: column;
+      max-width: 310px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) { 
+    .box-footer {
+      display: flex;
+      flex-direction: column;
+      max-width: 310px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+      .box-footer {
+        max-width: 90%;
+  }
+
+}

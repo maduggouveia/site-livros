@@ -30,11 +30,53 @@ div.newsletter-box {
     margin: 25px auto;
 }
 
-img.img-servicos {
+img.img-news, img.img-servicos {
     width: 45%;
     height: auto;
 
     margin: 25px;
 
     border-radius: 25px;
+}
+
+
+@media (max-width: 480px) {
+
+  .newsletter {
+    width: 300px;
+  }
+
+  div.newsletter-box {
+    max-width: 300px;
+  }
+
+  .img-news {
+    display: none;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .newsletter {
+    width: 450px;
+  }
+
+  div.newsletter-box {
+    max-width: 450px;
+  }
+
+  .img-news {
+    display: none;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+  div.newsletter-box {
+    width: 85%;
+    margin: 0 auto;
+  }
+
 }

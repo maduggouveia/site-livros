@@ -11,21 +11,6 @@ div.react-photo-album, div.react-photo-album--rows {
     width: 100%;
 }
 
-/* ARRUMAR IMGS NA PÁGINA, OS QUADRADOS ESTÃO COM TAMANHOS DIFERENTES */
-
-button.react-photo-album--button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img.react-photo-album--image {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 25px;
-}
-
 .yarl__slide_description {
     font-family: "Noto Sans", sans-serif;
     font-size: 14px;

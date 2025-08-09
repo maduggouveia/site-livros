@@ -4,9 +4,8 @@ import * as React from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import { RowsPhotoAlbum, MasonryPhotoAlbum } from "react-photo-album";
+import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
-import "react-photo-album/masonry.css";
 
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
@@ -27,6 +26,9 @@ export function ImgsRainha() {
 
       <RowsPhotoAlbum
         photos={artesRainha}
+        targetRowHeight={300}
+        spacing={20}
+        padding={20}
         onClick={({ index: current }) => setIndex(current)}
       />
 
@@ -70,6 +72,9 @@ export function ImgsNDI() {
 
       <RowsPhotoAlbum
         photos={artesNDI}
+        rowConstraints={{ singleRowMaxHeight: 300}}
+        spacing={20}
+        padding={20}
         onClick={({ index: current }) => setIndex(current)}
       />
 
@@ -112,6 +117,9 @@ export function ImgsMAV() {
 
       <RowsPhotoAlbum
         photos={artesMAV}
+        rowConstraints={{ singleRowMaxHeight: 300}}
+        spacing={20}
+        padding={20}
         onClick={({ index: current }) => setIndex(current)}
       />
 
