@@ -73,8 +73,7 @@ a.link-compra:hover {
     transition: 0.3s ease-in;
 }
 
-html,
-body {
+html {
   margin: 0;
   width: 100%;
 }
@@ -83,6 +82,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  margin: 0;
+  width: 100%;
 }
 
 main {
@@ -93,6 +95,7 @@ main {
 
   padding: 10px;
 
+  width: 90%;
   max-width: 1200px;
   
 }

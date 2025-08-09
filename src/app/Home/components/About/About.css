@@ -12,6 +12,13 @@
   text-align: center;
 }
 
+.sobre-parte-escrita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 img.img-perfil {
   width: 250px;
   height: 250px;

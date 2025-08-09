@@ -9,7 +9,7 @@ export function About() {
 
             <Image src="/imgs/fotoautora.png" alt="foto da autora" width={200} height={200} className="img-perfil" />
 
-          <div>
+          <div className='sobre-parte-escrita'>
               <h3>Maria Eduarda Gonçalves</h3>
                     
               <p className='texto-corrido' >Autora de romance e fantasia. Cresci no Rio de Janeiro, mas nasci em Recife, PE. Sou formada em Comunicação Social pela PUC-Rio, com especialização em Cinema, além de já ter feito diversos cursos de produção editorial e escrita criativa. Acredito que contar histórias é uma parte essencial da vida, sou apaixonada por contos de fadas desde pequena e adoro aprender coisas novas!</p>

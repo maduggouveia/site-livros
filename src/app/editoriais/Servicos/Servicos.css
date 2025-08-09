@@ -100,3 +100,102 @@ a.saiba-mais:hover {
     background-color: #F0EFF4;
     transition: 0.3s ease-in;
 }
+
+
+/* @media (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+} */
+
+
+@media (max-width: 480px) {
+
+    div.imgcard-box {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    img.img-servicos {
+        width: 95%;
+    }
+
+    div.externo-box {
+
+        width: 95%;
+
+    }
+
+    div.card-pv {
+        flex-direction: column;
+
+        width: 100%;
+        height: auto;
+    }
+
+    a.saiba-mais { 
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    div.imgcard-box {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    img.img-servicos {
+        width: 95%;
+    }
+
+    div.externo-box {
+
+        width: 95%;
+
+    }
+
+    div.card-pv {
+        flex-direction: column;
+
+        width: 100%;
+        height: auto;
+    }
+
+    a.saiba-mais { 
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+        div.imgcard-box {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    img.img-servicos {
+        width: 95%;
+    }
+
+    div.externo-box {
+
+        width: 95%;
+
+    }
+
+    div.card-pv {
+
+        width: 100%;
+        height: auto;
+    }
+
+}
