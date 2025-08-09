@@ -58,7 +58,7 @@ export const artesRainha = [
     {
         id: 9,
         src: '/artes/thaliraes-thea.png',
-        description: 'Thea, dama de companhia / por @thaliraes',
+        description: 'Thea, dama de companhia de Beatrice / por @thaliraes',
         width: 3000,
         height: 3000
     }
