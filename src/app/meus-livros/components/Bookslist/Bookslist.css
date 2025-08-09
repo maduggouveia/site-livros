@@ -22,7 +22,6 @@ div.booklist-box {
 
     background-color: #F0EFF4;
     border-radius: 10px
-
 }
 
 .tabs-trigger {
@@ -103,4 +102,82 @@ div.tablivro-info {
 div.tabbotoes-box {
     padding: 10px;
     margin: 25px;
+}
+
+/* AJEITAR AS TABS PARA A VERTICAL NO MEDIA QUERY */
+
+@media (max-width: 480px) {
+
+    .tabs-root, .tabs-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.card-tablivro {
+        flex-direction: column;
+
+        width: 70%;
+        max-width: 300px;
+    }
+
+    div.card-tabgaleria {
+        flex-direction: column;
+
+        width: 70%;
+        max-width: 300px;
+}
+
+    div.tabbotoes-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    .tabs-root, .tabs-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.card-tablivro {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    div.card-tabgaleria {
+        flex-direction: column;
+        width: 80%;
+}
+
+    div.tabbotoes-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    .tabs-trigger {
+        margin: 10px;
+    }
+
+    .tabs-list {
+        margin: 25px 0px;
+        padding: 0px;
+
+    }
+
+    div.card-tablivro {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    div.card-tabgaleria {
+        flex-direction: column;
+        width: 90%;
+    }
+
 }

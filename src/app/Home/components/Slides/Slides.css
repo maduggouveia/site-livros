@@ -110,10 +110,9 @@ div.botoes-box {
 @media (max-width: 480px) {
 
     div.slides {
-    width: 95%;
+    width: 100%;
     max-width: 320px;
 
-    margin: 50px auto;
     }
 
     div.embla-box {
@@ -173,7 +172,6 @@ div.botoes-box {
 
     margin: 5px auto;
 }
-
 
 }
 

@@ -37,3 +37,32 @@ img.artes-galeria:hover {
     width: 100%;
 
 }
+
+@media (max-width: 480px) {
+
+    div.card-galeria {
+        width: 80%;
+    }
+
+    img.artes-galeria:hover {
+        transform: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    div.card-galeria {
+        width: 100%;
+    }
+
+    img.artes-galeria:hover {
+        transform: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+        div.card-galeria {
+        width: 100%;
+    }
+
+}
