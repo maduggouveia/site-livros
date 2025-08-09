@@ -1,4 +1,4 @@
-div.react-photo-album, div.react-photo-album--rows {
+div.card-galeria {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -7,8 +7,21 @@ div.react-photo-album, div.react-photo-album--rows {
     align-items: center;
 
     margin: 25px;
+    gap: 30px;
 
     width: 100%;
+}
+
+img.artes-galeria {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+img.artes-galeria:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .yarl__slide_description {

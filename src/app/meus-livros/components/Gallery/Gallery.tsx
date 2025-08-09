@@ -1,11 +1,9 @@
 'use client'
 import * as React from "react";
+import Image from "next/image";
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-
-import { RowsPhotoAlbum } from "react-photo-album";
-import "react-photo-album/rows.css";
 
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
@@ -15,143 +13,77 @@ import "yet-another-react-lightbox/plugins/captions.css";
 
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
-import { artesRainha, artesNDI, artesMAV } from "./galeria";
-import './Gallery.css'
+import './Gallery.css';
 
-export function ImgsRainha() {
-  const [index, setIndex] = React.useState(-1);
-
-  return (
-    <>
-
-      <RowsPhotoAlbum
-        photos={artesRainha}
-        targetRowHeight={300}
-        spacing={20}
-        padding={20}
-        onClick={({ index: current }) => setIndex(current)}
-      />
-
-      <Lightbox
-        index={index}
-        slides={artesRainha}
-        open={index >= 0}
-        close={() => setIndex(-1)}
-
-        plugins={[Thumbnails, Captions, Zoom]}
-        
-        thumbnails={ {
-
-            position: "bottom",
-            width: 100,
-            height: 100,
-            border: 0,
-            borderRadius: 5,
-            gap: 30,
-            imageFit: "cover"
-          }
-        }
-
-        captions={{
-          descriptionTextAlign: "center",
-          showToggle: true
-        }}
-
-      />
-
-    </>
-  );
+interface Arte {
+  id: number;
+  src: string;
+  description: string;
+  width: number;
+  height: number;
 }
 
-
-export function ImgsNDI() {
-  const [index, setIndex] = React.useState(-1);
-
-  return (
-    <>
-
-      <RowsPhotoAlbum
-        photos={artesNDI}
-        rowConstraints={{ singleRowMaxHeight: 300}}
-        spacing={20}
-        padding={20}
-        onClick={({ index: current }) => setIndex(current)}
-      />
-
-      <Lightbox
-        index={index}
-        slides={artesNDI}
-        open={index >= 0}
-        close={() => setIndex(-1)}
-
-        plugins={[Thumbnails, Captions, Zoom]}
-
-        thumbnails={ {
-
-            position: "bottom",
-            width: 100,
-            height: 100,
-            border: 0,
-            borderRadius: 5,
-            gap: 30,
-            imageFit: "cover"
-          }
-        }
-
-        captions={{
-          descriptionTextAlign: "center",
-          showToggle: true
-        }}
-
-      />
-
-    </>
-  );
+function configurarArtes(artes: Arte[], setIndex: (i: number) => void) {
+  return artes.map((arte, i) => (
+    <Image
+      key={arte.id}
+      src={arte.src}
+      alt={arte.description}
+      width={arte.width}
+      height={arte.height}
+      className="artes-galeria"
+      onClick={() => setIndex(i)}
+    />
+  ));
 }
 
-export function ImgsMAV() {
+interface GaleriaProps {
+  artes: Arte[];
+}
+
+function Galeria({ artes }: Readonly<GaleriaProps>) {
   const [index, setIndex] = React.useState(-1);
 
   return (
-    <>
-
-      <RowsPhotoAlbum
-        photos={artesMAV}
-        rowConstraints={{ singleRowMaxHeight: 300}}
-        spacing={20}
-        padding={20}
-        onClick={({ index: current }) => setIndex(current)}
-      />
+    <div className="card-galeria">
+      {configurarArtes(artes, setIndex)}
 
       <Lightbox
         index={index}
-        slides={artesMAV}
+        slides={artes}
         open={index >= 0}
         close={() => setIndex(-1)}
-
         plugins={[Thumbnails, Captions, Zoom]}
-
-        thumbnails={ {
-
-            position: "bottom",
-            width: 100,
-            height: 100,
-            border: 0,
-            borderRadius: 5,
-            gap: 30,
-            imageFit: "cover"
-          }
-        }
-        
+        thumbnails={{
+          position: "bottom",
+          width: 100,
+          height: 100,
+          border: 0,
+          borderRadius: 5,
+          gap: 30,
+          imageFit: "cover"
+        }}
         captions={{
           descriptionTextAlign: "center",
           showToggle: true,
           hidden: true
         }}
-        
       />
-
-    </>
+    </div>
   );
 }
 
+// Usa o componente genérico passando a lista correta
+import { artesRainha, artesNDI, artesMAV } from "./galeria";
+
+export function ImgsRainha() {
+  return <Galeria artes={artesRainha} />;
+}
+
+export function ImgsNDI() {
+  return <Galeria artes={artesNDI} />;
+}
+
+export function ImgsMAV() {
+  return <Galeria artes={artesMAV} />;
+}
