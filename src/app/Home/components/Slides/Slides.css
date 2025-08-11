@@ -113,12 +113,18 @@ div.botoes-box {
     width: 100%;
     max-width: 320px;
 
+    margin: auto;
+
     }
 
     div.embla-box {
     gap: 15px;
-
     max-width: 300px;
+}
+
+.embla__dots {
+    max-width: 300px;
+    margin: 30px auto;
 }
 
 .embla__container {

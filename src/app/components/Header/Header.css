@@ -18,6 +18,13 @@
     align-items: center;
 }
 
+a.header-img-link:hover {
+    cursor: pointer;
+    background-color: transparent;
+    transition: none;
+    padding: 0px;
+}
+
 h1.header-title {
     font-style: italic;
     font-weight: 550;
