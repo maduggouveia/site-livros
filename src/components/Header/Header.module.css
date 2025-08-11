@@ -1,0 +1,138 @@
+.header {
+    position: sticky;
+    top: 0;
+
+    z-index: 100;
+
+    padding: 5px;
+
+    background-color: #5C00B8;
+}
+
+.headerBox {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.headerImgLink:hover {
+    cursor: pointer;
+    background-color: transparent;
+    transition: none;
+    padding: 0px;
+}
+
+h1.headerLitle {
+    font-style: italic;
+    font-weight: 550;
+    color: #F0EFF4;
+    padding-left: 25px;
+}
+
+div.listaNav {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a.botaoNav {
+    padding: 10px 20px;
+    border-radius: 25px;
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    
+    color: #6600CC;
+    background-color: #F0EFF4;
+}
+
+a.botaoNav:hover {
+    color: #F0EFF4;
+    background-color: #6600CC;
+    transition: 0.3s ease-in;
+}
+
+@media (max-width: 480px) {
+
+    .header {
+    position: static;
+
+    padding: 5px;
+
+    background-color: #5C00B8;
+}
+
+    .headerBox {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+    div.listaNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px;
+    gap: 15px;
+    }
+
+    a.botaoNav {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .header {
+    position: static;
+
+    padding: 5px;
+
+    background-color: #5C00B8;
+}
+
+    .headerBox {
+        max-width: 90%;
+    }
+
+    div.listaNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+        margin: 10px;
+        gap: 15px;
+    }
+
+    a.botaoNav {
+        width: 95%;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    .headerBox {
+
+        width: 90%;
+    
+}
+
+}

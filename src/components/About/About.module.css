@@ -1,0 +1,123 @@
+
+.sobreMim {
+  display: flex;
+  flex-direction: row;
+
+  gap: 30px;
+
+  width: 700px;
+  height: auto;
+
+  margin: 30px auto;
+  text-align: center;
+}
+
+.sobreParteEscrita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img.imgPerfil {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+
+  margin: 25px;
+}
+
+
+ul.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 25px 0px;
+  gap: 25px;
+  padding-inline-start: 0px;
+}
+
+.redesSociais img {
+  width: 30px;
+  height: 30px;
+}
+
+.redesSociais img:hover {
+  opacity: 0.5;
+  transition: 0.3s ease-in;
+}
+
+p.textoCorrido {
+  text-align: justify;
+}
+
+@media (max-width: 480px) { 
+
+  .sobreMim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  gap: 15px;
+
+  width: 280px;
+  height: auto;
+
+  margin: 15px auto;
+}
+
+img.imgPerfil {
+  width: 200px;
+  height: 200px;
+
+  margin: 10px;
+}
+
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .sobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    width: 400px;
+    height: auto;
+
+    margin: 15px auto;
+  }
+
+  img.imgPerfil {
+    width: 200px;
+    height: 200px;
+
+    margin: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+  .sobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    width: 400px;
+    height: auto;
+
+    margin: 15px auto;
+  }
+
+}

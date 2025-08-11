@@ -1,0 +1,64 @@
+.footer {
+    padding: 5px;
+    background-color: #5C00B8;
+
+}
+
+.boxFooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4.copyright {
+    color: #F0EFF4;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+ul.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 25px 0px;
+  gap: 25px;
+  padding-inline-start: 0px;
+}
+
+.redesSociais img {
+  width: 30px;
+  height: 30px;
+}
+
+.redesSociais img:hover {
+  opacity: 0.5;
+  transition: 0.3s ease-in;
+}
+
+@media (max-width: 480px) { 
+    .boxFooter {
+      display: flex;
+      flex-direction: column;
+      max-width: 310px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) { 
+    .boxFooter {
+      display: flex;
+      flex-direction: column;
+      max-width: 310px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+      .boxFooter {
+        max-width: 90%;
+  }
+
+}
