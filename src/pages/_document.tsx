@@ -9,7 +9,7 @@ export default function Document() {
         <title>Madu e Os Livros</title>
         <meta
           name="description"
-          content="Site oficial Madu Gonçalves, autora de romance e fantasia"
+          content="Site oficial da Madu Gonçalves, autora de romance e fantasia"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
@@ -18,7 +18,7 @@ export default function Document() {
         <meta property="og:title" content="Madu e Os Livros" />
         <meta
           property="og:description"
-          content="Site oficial Madu Gonçalves, autora de romance e fantasia"
+          content="Site oficial da Madu Gonçalves, autora de romance e fantasia"
         />
         <meta property="og:image" content="/capa.png" />
         <meta property="og:type" content="website" />
@@ -28,7 +28,7 @@ export default function Document() {
         <meta name="twitter:title" content="Madu e Os Livros" />
         <meta
           name="twitter:description"
-          content="Site oficial Madu Gonçalves, autora de romance e fantasia"
+          content="Site oficial da Madu Gonçalves, autora de romance e fantasia"
         />
         <meta name="twitter:image" content="/capa.png" />
 
@@ -40,7 +40,7 @@ export default function Document() {
         />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
       </Head>
       <body>
