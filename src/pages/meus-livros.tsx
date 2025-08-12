@@ -12,7 +12,7 @@ export default function Bookspage() {
 
     <main>
 
-      <div className="booklistBox">
+      <div className={styles.booklistBox}>
 
         <h1>Meus livros</h1>
 

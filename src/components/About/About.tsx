@@ -7,7 +7,7 @@ export function About() {
 
         <div className={styles.sobreMim}>
 
-            <Image src="/imgs/fotoautora.png" alt="foto da autora" width={200} height={200} className="img-perfil" />
+            <Image src="/imgs/fotoautora.png" alt="foto da autora" width={200} height={200} className={styles.imgPerfil} />
 
           <div className={styles.sobreParteEscrita}>
               <h3>Maria Eduarda Gonçalves</h3>
