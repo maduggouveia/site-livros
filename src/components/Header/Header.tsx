@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './Header.module.css'
 
-import Image from 'next/image'
+import ExportedImage from "next-image-export-optimizer"
 
 export function Header() {
 
@@ -12,7 +12,7 @@ export function Header() {
       <div className={styles.headerBox}>
 
         <Link className={styles.headerImgLink} href="/">
-                <Image src="/imgs/testebranco.png" alt="Madu e Os Livros" height={85} width={200} />
+                <ExportedImage src="/imgs/testebranco.png" alt="Madu e Os Livros" height={85} width={200} />
         </Link>
 
 

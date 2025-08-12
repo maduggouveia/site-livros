@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import Image from 'next/image'
+import ExportedImage from "next-image-export-optimizer"
 import styles from './Slides.module.css'
 
 export function Destaques() {
@@ -53,7 +53,7 @@ export function Destaques() {
                     <div className={styles['embla__slide']}>
                         <div className={styles.cardLivro}>
 
-                            <Image src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
+                            <ExportedImage src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
 
                             <div className={styles.livroInfo}>
                                 <h2>A Rainha de Dois Reinos</h2>
@@ -72,7 +72,7 @@ export function Destaques() {
                     <div className={styles['embla__slide']}>
                         <div className={styles.cardLivro}>
 
-                            <Image src="/imgs/ndi-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
+                            <ExportedImage src="/imgs/ndi-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
 
                             <div className={styles.livroInfo}>
                                 <h2>Noites de Insônia</h2>
@@ -90,7 +90,7 @@ export function Destaques() {
                     <div className={styles['embla__slide']}>
                         <div className={styles.cardLivro}>
 
-                            <Image src="/imgs/mav-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
+                            <ExportedImage src="/imgs/mav-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
 
                             <div className={styles.livroInfo}>
                                 <h2>Trilogia dos Amores</h2>

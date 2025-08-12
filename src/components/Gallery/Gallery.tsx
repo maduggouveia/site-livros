@@ -1,19 +1,19 @@
 'use client'
-import * as React from "react";
-import Image from "next/image";
+import * as React from "react"
+import ExportedImage from "next-image-export-optimizer"
 
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
+import Lightbox from "yet-another-react-lightbox"
+import "yet-another-react-lightbox/styles.css"
 
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails"
+import "yet-another-react-lightbox/plugins/thumbnails.css"
 
-import { Captions } from "yet-another-react-lightbox/plugins";
-import "yet-another-react-lightbox/plugins/captions.css";
+import { Captions } from "yet-another-react-lightbox/plugins"
+import "yet-another-react-lightbox/plugins/captions.css"
 
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import Zoom from "yet-another-react-lightbox/plugins/zoom"
 
-import styles from './Gallery.module.css';
+import styles from './Gallery.module.css'
 
 interface Arte {
   id: number;
@@ -25,7 +25,7 @@ interface Arte {
 
 function configurarArtes(artes: Arte[], setIndex: (i: number) => void) {
   return artes.map((arte, i) => (
-    <Image
+    <ExportedImage
       key={arte.id}
       src={arte.src}
       alt={arte.description}

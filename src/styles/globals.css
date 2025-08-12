@@ -39,7 +39,6 @@ a:hover {
   color: #6600CC;
   background-color: #F0EFF4;
   transition: 0.3s ease-in;
-  padding: 0px 3px;
 }
 
 a.linkRedes {
@@ -48,8 +47,8 @@ a.linkRedes {
 }
 
 a.linkRedes:hover {
-    padding: 0px;
-    background-color: transparent;
+  padding: 0px;
+  background-color: transparent;
 }
 
 a.linkCompra {
