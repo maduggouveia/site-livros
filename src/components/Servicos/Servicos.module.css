@@ -104,7 +104,7 @@ a.saibaMais:hover {
 
 @media (max-width: 480px) {
 
-    div.imgcardBox {
+    div.imgCardBox {
         flex-direction: column;
         width: 95%;
     }

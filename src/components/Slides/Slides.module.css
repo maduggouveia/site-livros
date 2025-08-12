@@ -103,8 +103,7 @@ div.botoesBox {
 
     div.emblaBox {
     gap: 15px;
-    max-width: 300px;
-}
+    }
 
 .embla__dots {
     max-width: 300px;
@@ -199,7 +198,7 @@ div.emblaBox {
     display: none;
 }
 
-div.card-livro {
+div.cardLivro {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -52,8 +52,11 @@ a.linkRedes:hover {
 }
 
 a.linkCompra {
-    padding: 15px 50px;
+    padding: 15px 25px;
     border-radius: 30px;
+
+    width: 110px;
+    display: inline-block;
 
     margin: 25px;
 
@@ -230,6 +233,11 @@ p {
         display: flex;
         flex-direction: column;
     }
+
+    a.linkCompra {
+      margin: 10px;
+      font-size: 12px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -238,6 +246,11 @@ p {
         display: flex;
         flex-direction: column;
     }
+
+    a.linkCompra {
+      margin: 15px;
+      font-size: 12px;
+  }
 
 }
 
@@ -252,6 +265,10 @@ p {
         padding: 0px;
 
     }
+
+    a.linkCompra {
+      margin: 20px;
+  }
 
 }
 
