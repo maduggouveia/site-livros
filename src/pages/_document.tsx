@@ -6,7 +6,6 @@ export default function Document() {
     <Html lang="pt-BR">
       <Head>
         {/* Metadados globais */}
-        <title>Madu e Os Livros</title>
         <meta
           name="description"
           content="Site oficial da Madu Gonçalves, autora de romance e fantasia"

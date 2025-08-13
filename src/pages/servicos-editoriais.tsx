@@ -1,13 +1,19 @@
-import { Header } from '@/components/Header/Header';
-import { Servicos } from '../components/Servicos/Servicos';
-import { Footer } from '@/components/Footer/Footer';
+import { Header } from '@/components/Header/Header'
+import { Servicos } from '../components/Servicos/Servicos'
+import { Footer } from '@/components/Footer/Footer'
 import styles from '../components/Servicos/Servicos.module.css'
 import ExportedImage from "next-image-export-optimizer"
+import Head from 'next/head'
 
 export default function Editoriais() {
   return (
 
     <>
+
+    <Head>
+      <title>Serviços Editoriais</title>
+    </Head>
+
 
     <Header />
 
