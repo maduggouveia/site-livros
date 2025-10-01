@@ -24,6 +24,24 @@ const BookTabs = () => (
             <Tabs.Content className="tabs-content" value="tab1">
 
                 <div className={styles.cardTabLivro}>
+                        
+                    <ExportedImage src="/imgs/osanguetablet.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    
+                    <div className={styles.tabLivroInfo}>
+                        <h2>O Sangue Derramado</h2>
+
+                        <div>
+                            <p className='descricao'>Nesta antologia vampiresca, três histórias dividem o mesmo universo de um Rio de Janeiro fantástico. Os contos de “O sangue derramado” apresentam essas infames criaturas aterrorizando e seduzindo as eternas madrugadas da cidade maravilhosa.</p>
+                        </div>
+                        
+                        <div className={styles.tabBotoesBox}>
+                            <a className='linkCompra' href="https://www.amazon.com.br/dp/B0FTG11XWK" target="_blank">e-book</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className={styles.cardTabLivro}>
                 
                     <ExportedImage src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                 
