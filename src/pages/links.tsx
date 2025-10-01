@@ -1,6 +1,5 @@
 import Head from "next/head"
-import { Header } from "@/components/Header/Header"
-import { Footer } from "@/components/Footer/Footer"
+import { LinksPage } from "@/components/LinksPage/Linkspage"
 
 export default function Links() {
 
@@ -9,22 +8,15 @@ export default function Links() {
         <>
 
             <Head>
-            <title>Links importantes</title>
+            <title>Madu e Os Links</title>
             </Head>
 
-                <Header />
 
             <main>
 
-            <div>
-
-                <p>Sou autora de romance e fantasia, aqui estão os meus links mais importantes!</p>
-
-            </div>
+                <LinksPage />
 
             </main>
-    
-            <Footer />
         
         </>
 

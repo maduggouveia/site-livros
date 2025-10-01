@@ -53,6 +53,26 @@ export function Destaques() {
                     <div className={styles['embla__slide']}>
                         <div className={styles.cardLivro}>
 
+                            <ExportedImage src="/imgs/osanguetablet.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
+
+                            <div className={styles.livroInfo}>
+                                <h2>O Sangue Derramado</h2>
+                                <p className='descricao'>Nesta antologia vampiresca, três histórias dividem o mesmo universo de um Rio de Janeiro fantástico. Os contos de “O sangue derramado” apresentam essas infames criaturas aterrorizando e seduzindo as eternas madrugadas da cidade maravilhosa.</p>
+
+                                <div className={styles.botoesBox}>
+                                    <a className="linkCompra" href="https://www.amazon.com.br/dp/B0FTG11XWK" target="_blank">e-book</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div className={styles['embla__slide']}>
+                        <div className={styles.cardLivro}>
+
+                        <div className={styles.cardLivro}>
+
                             <ExportedImage src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
 
                             <div className={styles.livroInfo}>
@@ -65,6 +85,8 @@ export function Destaques() {
                                 </div>
 
                             </div>
+
+                        </div>
 
                         </div>
                     </div>
@@ -84,25 +106,7 @@ export function Destaques() {
                                 </div>
 
                             </div>
-                        </div>
-                    </div>
 
-                    <div className={styles['embla__slide']}>
-                        <div className={styles.cardLivro}>
-
-                            <ExportedImage src="/imgs/mav-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
-
-                            <div className={styles.livroInfo}>
-                                <h2>Trilogia dos Amores</h2>
-                                <p className='descricao'>“Meu Amor Viajante” é uma noveleta sobre as memórias que fazemos com aqueles que amamos, a efemeridade das nossas relações e as histórias que queremos contar, mas que nem sempre saem como esperávamos.</p>
-
-                            <p className='descricao'>Conheça também o desfecho da Trilogia dos Amores em <a href="https://www.amazon.com.br/dp/B0BPR3NJWJ" target="_blank">Meu Amor Sempre</a>!</p>
-
-                                <div className={styles.botoesBox}>
-                                    <a className="linkCompra" href="https://www.amazon.com.br/dp/B0B66Y2XN1" target="_blank">leia aqui</a>
-                                </div>
-
-                            </div>
                         </div>
                     </div>
 

@@ -40,13 +40,13 @@ export default function Editoriais() {
               <ExportedImage src='/imgs/pv-icon.png' alt='logo oficial do Primeira Versão, é o número 1 em branco com fundo azul escuro' height={100} width={100} className='logo-pv' ></ExportedImage>
 
               <div>
-                <p>Todos esses serviços estão disponíveis através do <a href="http://primeiraversao.carrd.co">Primeira Versão</a>.</p>
+                <p>Todos esses serviços estão disponíveis através do <a href="http://primeiraversao.carrd.co" target='_blank'>Primeira Versão</a>.</p>
                 <p>Venha conhecer nossa equipe e fazer o seu orçamento!</p>
               </div>
 
             </div>
 
-            <a className={styles.saibaMais} href="https://primeiraversao.carrd.co" target='blank'>saiba mais</a>
+            <a className={styles.saibaMais} href="https://primeiraversao.carrd.co" target='_blank'>saiba mais</a>
 
           </div>
 

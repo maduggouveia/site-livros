@@ -1,0 +1,180 @@
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 30px;
+
+  width: 700px;
+  height: auto;
+
+  margin: 30px auto;
+  padding: 50px;
+  text-align: center;
+
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.tituloLinks {
+    color: #6600bb;
+}
+
+.textoIntro {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.principais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.cardLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+ul.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 25px 0px;
+  gap: 25px;
+  padding-inline-start: 0px;
+}
+
+.redesSociais img {
+  width: 30px;
+  height: 30px;
+}
+
+.redesSociais img:hover {
+  opacity: 0.5;
+  transition: 0.3s ease-in;
+  scale: 1.1;
+
+}
+
+a.linkRedes {
+  padding: 0px;
+  background-color: transparent;
+}
+
+a.linkRedes:hover {
+  padding: 0px;
+  background-color: transparent;
+}
+
+a.botaoLink {
+    padding: 15px 50px;
+    border-radius: 30px;
+
+    margin: 15px;
+    width: 70%;
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+    color: #F0EFF4;
+    background-color: #550aa0;
+}
+
+a.botaoDestaque {
+    padding: 15px 50px;
+    border-radius: 30px;
+
+    margin: 15px;
+    width: 70%;
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+    color: #F0EFF4;
+    background-color: #a00a0a;
+}
+
+a.botaoLink:hover {
+    color: #18A999;
+    background-color: #F0EFF4;
+    transition: 0.3s ease-in;
+}
+
+a.botaoDestaque:hover {
+    color: #b80808;
+    background-color: #F0EFF4;
+    transition: 0.3s ease-in;
+}
+
+img.imgLivro {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+
+  object-fit: cover;
+
+  margin: 25px;
+}
+
+hr.divisor {
+    width: 100%;
+    margin: 50px auto;
+    border: 0.5px solid #dbdbdb;
+}
+
+
+@media (max-width: 768px) {
+
+    .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 30px;
+
+  width: 400px;
+  height: auto;
+
+  margin: 15px auto;
+  padding: 25px;
+  text-align: center;
+
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.textoIntro {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 15px;
+}
+
+a.botaoLink {
+
+    font-size: 1em;
+}
+
+hr.divisor {
+    width: 90%;
+    margin: 50px auto;
+    border: 0.5px solid #dbdbdb;
+}
+
+}
