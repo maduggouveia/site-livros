@@ -4,7 +4,7 @@ export function LinksPage() {
 
     return (
 
-        <>
+        <div className={styles.pageLinks}>
         
             <div  className={styles.intro}>
 
@@ -43,7 +43,7 @@ export function LinksPage() {
 
             <div className={styles.cardLinks}>
 
-                <ExportedImage src="/imgs/osanguetablet.png" alt="o sangue derramado" width={500} height={500} />
+                <ExportedImage src="/imgs/osanguetablet.png" alt="o sangue derramado" width={500} height={500}  className={styles.imgEbook}/>
 
                 <h2>O Sangue Derramado</h2>
 
@@ -133,10 +133,10 @@ export function LinksPage() {
                 
             </div>
 
-        <h4 className={styles.copyright}>Maria Eduarda Gonçalves &copy; 2025</h4>
+        <h4 className={styles.copyrightLinks}>Maria Eduarda Gonçalves &copy; 2025</h4>
 
         
-        </>
+        </div>
         
     )
 }
