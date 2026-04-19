@@ -1,5 +1,5 @@
+import Image from 'next/image'
 import styles from './Newsletter.module.css'
-import ExportedImage from "next-image-export-optimizer"
 
 export function Newsletter() {
     return (
@@ -14,7 +14,7 @@ export function Newsletter() {
 
             </div>
         
-        <ExportedImage src="/imgs/newsletterfoto.jpg" alt="fotografia de uma máquina de escrever, cercada de envelopes selados com lacres de cera" height={500} width={500} className={styles.imgNews}/>
+        <Image src="/imgs/newsletterfoto.jpg" alt="fotografia de uma máquina de escrever, cercada de envelopes selados com lacres de cera" height={500} width={500} className={styles.imgNews}/>
 
         </div>
 

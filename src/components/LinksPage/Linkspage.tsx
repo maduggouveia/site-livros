@@ -1,5 +1,5 @@
-import styles from './Linkspage.module.css'
-import ExportedImage from "next-image-export-optimizer"
+import Image from 'next/image'
+import styles from './LinksPage.module.css'
 export function LinksPage() {
 
     return (
@@ -19,14 +19,13 @@ export function LinksPage() {
 
             <div className={styles.principais}>
 
-                
                     <ul className={styles.redesSociais}>
 
-                        <li><a href="https://www.instagram.com/madueoslivros" target="_blank" className={styles.linkRedes}><ExportedImage src="/imgs/igpretofilled.svg" width={30} height={30} alt="instagram" /></a></li>
+                        <li><a href="https://www.instagram.com/madueoslivros" target="_blank" className={styles.linkRedes}><Image src="/imgs/igpretofilled.svg" width={30} height={30} alt="instagram" /></a></li>
 
-                        <li><a href="https://www.tiktok.com/@madueoslivros" target="_blank" className={styles.linkRedes}><ExportedImage src="/imgs/tiktok.svg" width={30} height={30} alt="tiktok" /></a></li>
+                        <li><a href="https://www.tiktok.com/@madueoslivros" target="_blank" className={styles.linkRedes}><Image src="/imgs/tiktok.svg" width={30} height={30} alt="tiktok" /></a></li>
                     
-                        <li><a href="https://bsky.app/profile/madueoslivros.bsky.social" target="_blank" className={styles.linkRedes}><ExportedImage src="/imgs/bluesky.svg" width={30} height={30} alt="bluesky" /></a></li>
+                        <li><a href="https://bsky.app/profile/madueoslivros.bsky.social" target="_blank" className={styles.linkRedes}><Image src="/imgs/bluesky.svg" width={30} height={30} alt="bluesky" /></a></li>
                 
                     </ul>
                     
@@ -43,7 +42,7 @@ export function LinksPage() {
 
             <div className={styles.cardLinks}>
 
-                <ExportedImage src="/imgs/osanguetablet.png" alt="o sangue derramado" width={500} height={500}  className={styles.imgEbook}/>
+                <Image src="/imgs/osanguetablet.png" alt="o sangue derramado" width={500} height={500}  className={styles.imgEbook}/>
 
                 <h2>O Sangue Derramado</h2>
 
@@ -58,7 +57,7 @@ export function LinksPage() {
 
             <div className={styles.cardLinks}>
 
-                <ExportedImage src="/imgs/busto-clarisse.png" alt="beatrice e hector" width={500} height={500} className={styles.imgLivro} />
+                <Image src="/imgs/busto-clarisse.png" alt="beatrice e hector" width={500} height={500} className={styles.imgLivro} />
 
                 <h2>A Rainha de Dois Reinos</h2>
 
@@ -74,7 +73,7 @@ export function LinksPage() {
 
             <div className={styles.cardLinks}>
 
-                <ExportedImage src="/imgs/mard-rod1.jpg" alt="marcela e rodrigo" width={500} height={500} className={styles.imgLivro} />
+                <Image src="/imgs/mard-rod1.jpg" alt="marcela e rodrigo" width={500} height={500} className={styles.imgLivro} />
 
                 <h2>Noites de Insônia</h2>
 
@@ -90,7 +89,7 @@ export function LinksPage() {
 
             <div className={styles.cardLinks}>
 
-                <ExportedImage src="/imgs/mav-1.jpg" alt="camila e marcos" width={500} height={500} className={styles.imgLivro} />
+                <Image src="/imgs/mav-1.jpg" alt="camila e marcos" width={500} height={500} className={styles.imgLivro} />
 
                 <h2>Trilogia dos Amores</h2>
 

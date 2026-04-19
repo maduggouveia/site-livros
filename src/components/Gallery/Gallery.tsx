@@ -1,6 +1,5 @@
 'use client'
 import * as React from "react"
-import ExportedImage from "next-image-export-optimizer"
 
 import Lightbox from "yet-another-react-lightbox"
 import "yet-another-react-lightbox/styles.css"
@@ -25,7 +24,7 @@ interface Arte {
 
 function configurarArtes(artes: Arte[], setIndex: (i: number) => void) {
   return artes.map((arte, i) => (
-    <ExportedImage
+    <Image
       key={arte.id}
       src={arte.src}
       alt={arte.description}
@@ -75,6 +74,7 @@ function Galeria({ artes }: Readonly<GaleriaProps>) {
 
 // Usa o componente genérico passando a lista correta
 import { artesRainha, artesNDI, artesMAV } from "./galeria";
+import Image from "next/image"
 
 export function ImgsRainha() {
   return <Galeria artes={artesRainha} />;

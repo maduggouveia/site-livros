@@ -1,5 +1,5 @@
+import Image from 'next/image'
 import styles from './Footer.module.css'
-import ExportedImage from "next-image-export-optimizer"
 
 export function Footer() {
 
@@ -10,15 +10,15 @@ export function Footer() {
       <div className={styles.boxFooter}>
 
           <ul className={styles.redesSociais}>
-            <li><a href="https://ko-fi.com/madueoslivros" target="_blank" className="linkRedes" ><ExportedImage src="/imgs/kofi.svg" width={30} height={30} alt="ko-fi" /></a></li>
+            <li><a href="https://ko-fi.com/madueoslivros" target="_blank" className="linkRedes" ><Image src="/imgs/kofi.svg" width={30} height={30} alt="ko-fi" /></a></li>
 
-            <li><a href="https://www.amazon.com.br/stores/Madu-Gon%C3%A7alves/author/B08R951KTT" target="_blank" className="linkRedes" ><ExportedImage src="/imgs/amazon.svg" width={30} height={30} alt="amazon" /></a></li>
+            <li><a href="https://www.amazon.com.br/stores/Madu-Gon%C3%A7alves/author/B08R951KTT" target="_blank" className="linkRedes" ><Image src="/imgs/amazon.svg" width={30} height={30} alt="amazon" /></a></li>
 
-            <li><a href="https://www.instagram.com/madueoslivros" target="_blank" className="linkRedes"><ExportedImage src="/imgs/instagram.svg" width={30} height={30} alt="instagram" /></a></li>
+            <li><a href="https://www.instagram.com/madueoslivros" target="_blank" className="linkRedes"><Image src="/imgs/instagram.svg" width={30} height={30} alt="instagram" /></a></li>
 
-            <li><a href="https://bsky.app/profile/madueoslivros.bsky.social" target="_blank" className="linkRedes"><ExportedImage src="/imgs/bluesky-branco.svg" width={30} height={30} alt="bluesky" /></a></li>
+            <li><a href="https://bsky.app/profile/madueoslivros.bsky.social" target="_blank" className="linkRedes"><Image src="/imgs/bluesky-branco.svg" width={30} height={30} alt="bluesky" /></a></li>
 
-            <li><a href="mailto:madueoslivros@gmail.com" target="_blank" className="linkRedes"><ExportedImage src="/imgs/email.svg" width={30} height={30} alt="e-mail" /></a></li>
+            <li><a href="mailto:madueoslivros@gmail.com" target="_blank" className="linkRedes"><Image src="/imgs/email.svg" width={30} height={30} alt="e-mail" /></a></li>
 
           </ul>
 

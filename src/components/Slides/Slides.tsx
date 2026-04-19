@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState, useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import ExportedImage from "next-image-export-optimizer"
 import styles from './Slides.module.css'
+import Image from 'next/image'
 
 export function Destaques() {
 
@@ -53,7 +53,7 @@ export function Destaques() {
                     <div className={styles['embla__slide']}>
                         <div className={styles.cardLivro}>
 
-                            <ExportedImage src="/imgs/osanguetablet.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
+                            <Image src="/imgs/osanguetablet.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
 
                             <div className={styles.livroInfo}>
                                 <h2>O Sangue Derramado</h2>
@@ -73,7 +73,7 @@ export function Destaques() {
 
                         <div className={styles.cardLivro}>
 
-                            <ExportedImage src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
+                            <Image src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
 
                             <div className={styles.livroInfo}>
                                 <h2>A Rainha de Dois Reinos</h2>
@@ -94,7 +94,7 @@ export function Destaques() {
                     <div className={styles['embla__slide']}>
                         <div className={styles.cardLivro}>
 
-                            <ExportedImage src="/imgs/ndi-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
+                            <Image src="/imgs/ndi-livros.png" alt="placeholder" height={300} width={300} className={styles.livrosImg}/>
 
                             <div className={styles.livroInfo}>
                                 <h2>Noites de Insônia</h2>

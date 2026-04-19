@@ -3,7 +3,7 @@ import { Tabs } from "radix-ui"
 import styles from './Bookslist.module.css'
 
 import { ImgsMAV, ImgsNDI, ImgsRainha } from "../Gallery/Gallery"
-import ExportedImage from "next-image-export-optimizer"
+import Image from "next/image"
 
 const BookTabs = () => (
 
@@ -25,7 +25,7 @@ const BookTabs = () => (
 
                 <div className={styles.cardTabLivro}>
                         
-                    <ExportedImage src="/imgs/osanguetablet.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/osanguetablet.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                     
                     <div className={styles.tabLivroInfo}>
                         <h2>O Sangue Derramado</h2>
@@ -43,7 +43,7 @@ const BookTabs = () => (
 
                 <div className={styles.cardTabLivro}>
                 
-                    <ExportedImage src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/rainha-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                 
                     <div className={styles.tabLivroInfo}>
                         <h2>A Rainha de Dois Reinos</h2>
@@ -60,7 +60,7 @@ const BookTabs = () => (
 
                 <div className={styles.cardTabLivro}>
 
-                    <ExportedImage src="/imgs/ndi-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/ndi-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
 
                     <div className={styles.tabLivroInfo}>
                         <h2>Noites de Insônia</h2>
@@ -76,7 +76,7 @@ const BookTabs = () => (
 
                 <div className={styles.cardTabLivro}>
                         
-                    <ExportedImage src="/imgs/mav-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/mav-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                     
                     <div className={styles.tabLivroInfo}>
                         <h2>Trilogia dos Amores</h2>
@@ -99,7 +99,7 @@ const BookTabs = () => (
 
                 <div className={styles.cardTabLivro}>
                         
-                    <ExportedImage src="/imgs/ensaios-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/ensaios-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                     
                     <div className={styles.tabLivroInfo}>
                         <h2>Ensaios Sobre a Intimidade</h2>
@@ -119,7 +119,7 @@ const BookTabs = () => (
 
                 <div className={styles.cardTabLivro}>
                         
-                    <ExportedImage src="/imgs/achados-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
+                    <Image src="/imgs/achados-livros.png" alt="placeholder" height={300} width={300} className='livros-img'/>
                     
                     <div className={styles.tabLivroInfo}>
                         <h2>Achados & Perdidos</h2>

@@ -2,8 +2,8 @@ import { Header } from '@/components/Header/Header'
 import { Servicos } from '../components/Servicos/Servicos'
 import { Footer } from '@/components/Footer/Footer'
 import styles from '../components/Servicos/Servicos.module.css'
-import ExportedImage from "next-image-export-optimizer"
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Editoriais() {
   return (
@@ -25,7 +25,7 @@ export default function Editoriais() {
 
           <div className={styles.imgCardBox}>
 
-            <ExportedImage src="/imgs/servicosfoto.jpg" alt="fotografia de uma máquina de escrever, cercada por itens diversos como óculos, papéis, flores, xícara, etc" height={500} width={500} className={styles.imgServicos}/>
+            <Image src="/imgs/servicosfoto.jpg" alt="fotografia de uma máquina de escrever, cercada por itens diversos como óculos, papéis, flores, xícara, etc" height={500} width={500} className={styles.imgServicos}/>
 
             <Servicos />
 
@@ -37,7 +37,7 @@ export default function Editoriais() {
 
             <div className={styles.cardPv}>
 
-              <ExportedImage src='/imgs/pv-icon.png' alt='logo oficial do Primeira Versão, é o número 1 em branco com fundo azul escuro' height={100} width={100} className='logo-pv' ></ExportedImage>
+              <Image src='/imgs/pv-icon.png' alt='logo oficial do Primeira Versão, é o número 1 em branco com fundo azul escuro' height={100} width={100} className='logo-pv' ></Image>
 
               <div>
                 <p>Todos esses serviços estão disponíveis através do <a href="http://primeiraversao.carrd.co" target='_blank'>Primeira Versão</a>.</p>
